@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BA6B1C0E08F0C0B0C3D3E95 /* libPods-MLSearchHistory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7103DB3A82A2B5EFABB877 /* libPods-MLSearchHistory.a */; };
 		6B58B5E01E25F1BB00FE73C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B58B5DF1E25F1BB00FE73C1 /* main.m */; };
 		6B58B5E31E25F1BB00FE73C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B58B5E21E25F1BB00FE73C1 /* AppDelegate.m */; };
 		6B58B5E61E25F1BB00FE73C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B58B5E51E25F1BB00FE73C1 /* ViewController.m */; };
 		6B58B5E91E25F1BB00FE73C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B58B5E71E25F1BB00FE73C1 /* Main.storyboard */; };
 		6B58B5EB1E25F1BB00FE73C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B58B5EA1E25F1BB00FE73C1 /* Assets.xcassets */; };
 		6B58B5EE1E25F1BB00FE73C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B58B5EC1E25F1BB00FE73C1 /* LaunchScreen.storyboard */; };
+		6B58B5FA1E25F1D900FE73C1 /* MLSearchResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B58B5F71E25F1D900FE73C1 /* MLSearchResultsTableViewController.m */; };
+		6B58B5FB1E25F1D900FE73C1 /* MLSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B58B5F91E25F1D900FE73C1 /* MLSearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,13 @@
 		6B58B5EA1E25F1BB00FE73C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B58B5ED1E25F1BB00FE73C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B58B5EF1E25F1BB00FE73C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B58B5F61E25F1D900FE73C1 /* MLSearchResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSearchResultsTableViewController.h; sourceTree = "<group>"; };
+		6B58B5F71E25F1D900FE73C1 /* MLSearchResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSearchResultsTableViewController.m; sourceTree = "<group>"; };
+		6B58B5F81E25F1D900FE73C1 /* MLSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLSearchViewController.h; sourceTree = "<group>"; };
+		6B58B5F91E25F1D900FE73C1 /* MLSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLSearchViewController.m; sourceTree = "<group>"; };
+		939958C76BB2B5B89805E780 /* Pods-MLSearchHistory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLSearchHistory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MLSearchHistory/Pods-MLSearchHistory.debug.xcconfig"; sourceTree = "<group>"; };
+		B70B50719907E9563288A308 /* Pods-MLSearchHistory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLSearchHistory.release.xcconfig"; path = "Pods/Target Support Files/Pods-MLSearchHistory/Pods-MLSearchHistory.release.xcconfig"; sourceTree = "<group>"; };
+		DC7103DB3A82A2B5EFABB877 /* libPods-MLSearchHistory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MLSearchHistory.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BA6B1C0E08F0C0B0C3D3E95 /* libPods-MLSearchHistory.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				6B58B5DD1E25F1BB00FE73C1 /* MLSearchHistory */,
 				6B58B5DC1E25F1BB00FE73C1 /* Products */,
+				FE9F5556D1FA4D5D26B82692 /* Pods */,
+				DE21260A5C60819A399F0589 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +71,7 @@
 		6B58B5DD1E25F1BB00FE73C1 /* MLSearchHistory */ = {
 			isa = PBXGroup;
 			children = (
+				6B58B5F51E25F1D900FE73C1 /* SearchController */,
 				6B58B5E11E25F1BB00FE73C1 /* AppDelegate.h */,
 				6B58B5E21E25F1BB00FE73C1 /* AppDelegate.m */,
 				6B58B5E41E25F1BB00FE73C1 /* ViewController.h */,
@@ -79,6 +93,34 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		6B58B5F51E25F1D900FE73C1 /* SearchController */ = {
+			isa = PBXGroup;
+			children = (
+				6B58B5F61E25F1D900FE73C1 /* MLSearchResultsTableViewController.h */,
+				6B58B5F71E25F1D900FE73C1 /* MLSearchResultsTableViewController.m */,
+				6B58B5F81E25F1D900FE73C1 /* MLSearchViewController.h */,
+				6B58B5F91E25F1D900FE73C1 /* MLSearchViewController.m */,
+			);
+			path = SearchController;
+			sourceTree = "<group>";
+		};
+		DE21260A5C60819A399F0589 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC7103DB3A82A2B5EFABB877 /* libPods-MLSearchHistory.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE9F5556D1FA4D5D26B82692 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				939958C76BB2B5B89805E780 /* Pods-MLSearchHistory.debug.xcconfig */,
+				B70B50719907E9563288A308 /* Pods-MLSearchHistory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B58B5F21E25F1BB00FE73C1 /* Build configuration list for PBXNativeTarget "MLSearchHistory" */;
 			buildPhases = (
+				371E64AF1A9F311B3D73AD6F /* [CP] Check Pods Manifest.lock */,
 				6B58B5D71E25F1BB00FE73C1 /* Sources */,
 				6B58B5D81E25F1BB00FE73C1 /* Frameworks */,
 				6B58B5D91E25F1BB00FE73C1 /* Resources */,
+				91183CB4F3B3253412CD3F0B /* [CP] Embed Pods Frameworks */,
+				FDCD7E3609ACFBC89FB9E75C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,14 +190,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		371E64AF1A9F311B3D73AD6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		91183CB4F3B3253412CD3F0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLSearchHistory/Pods-MLSearchHistory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDCD7E3609ACFBC89FB9E75C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MLSearchHistory/Pods-MLSearchHistory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6B58B5D71E25F1BB00FE73C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6B58B5E61E25F1BB00FE73C1 /* ViewController.m in Sources */,
+				6B58B5FB1E25F1D900FE73C1 /* MLSearchViewController.m in Sources */,
 				6B58B5E31E25F1BB00FE73C1 /* AppDelegate.m in Sources */,
 				6B58B5E01E25F1BB00FE73C1 /* main.m in Sources */,
+				6B58B5FA1E25F1D900FE73C1 /* MLSearchResultsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +363,7 @@
 		};
 		6B58B5F31E25F1BB00FE73C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939958C76BB2B5B89805E780 /* Pods-MLSearchHistory.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MLSearchHistory/Info.plist;
@@ -279,6 +375,7 @@
 		};
 		6B58B5F41E25F1BB00FE73C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70B50719907E9563288A308 /* Pods-MLSearchHistory.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MLSearchHistory/Info.plist;
